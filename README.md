@@ -2,6 +2,16 @@
 
 It's all in the box! Run all your ETL jobs with this awesome C# class library.
 
+## WARNING
+
+This is a clone of version 1.5.0
+
+The problem is that we can't use the latest version of this library as we have yet migrated to dotnetcore3 and we don't have the resource atm for that.
+
+The 1.5.0 version uses `USE` statements in its SQL, which isn't supported: https://social.msdn.microsoft.com/Forums/azure/en-US/1d83c593-095d-416b-b927-7a6489503131/sql-quotusequot-statement-is-not-supported-in-azure-sql-database-for-selecting-different?forum=ssdsgetstarted.
+
+So we have this in the time being to fix our issues.
+
 ## ETLBox.net
 
 There is a new project homepage for ETLBox availabe: [etlbox.net](https://etlbox.net) contains all the information you need about ETLBox. There is a whole set of [introductional articles](https://etlbox.net/articles/getting_started.html), examples for [Control Flow Tasks](https://etlbox.net/articles/example_controlflow.html), [Data Flow Tasks](https://etlbox.net/articles/example_dataflow.html) and [Logging](https://etlbox.net/articles/example_logging.html), and finally a [complete API documentation](https://etlbox.net/api/index.html)!
