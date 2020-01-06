@@ -15,7 +15,7 @@ ETLBox is a comprehensive C# class library that is able to manage your whole ETL
     <PackageTags>ETL SSIS ELT Dataflow Controlflow Datapipe</PackageTags>
     <PackageReleaseNotes>Adding support for SQLite.
 </PackageReleaseNotes>
-    <Version>1.5.1-everwealth</Version>
+    <Version>1.5.1-everwealth2</Version>
     <PackageIconUrl>https://raw.githubusercontent.com/roadrunnerlenny/etlbox/master/docs/images/logo_bw.ico</PackageIconUrl>
     <Authors>Andreas Lennartz</Authors>
     <Company>ALE</Company>
